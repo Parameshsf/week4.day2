@@ -27,6 +27,7 @@ public class tableExercise {
 		// Printing the header columns of the table or first row of the table
 		System.out.println("The Header of the table as follows ");
 		System.out.println(rows.get(0).getText());
+		System.out.println(rows.get(1).getText());
 
 		// Printing the column values of the table
 		List<WebElement> cols = seleniumTable.findElements(By.xpath("//table[@id='table_id']//td"));
